@@ -1,0 +1,69 @@
+body
+{
+    padding-top: 5px;  
+    /* background: url(../images/linux_evalution.jpg); */
+    align-items: center;
+
+
+}
+#navbar{
+    background-color: aquamarine;
+
+}
+#text{
+    background-color: #000000;
+    color: white;
+}
+ .background{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+    height: 600px;
+    background-image: url(../images/linux_evalution.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    /* background-position: top center; */
+    background-attachment: fixed;
+}
+#images{
+    width: auto;
+    height: 200px;
+}
+#image-1{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-image: url(/images/linux_evalution.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 50 200px ;
+    top: -100px;
+    left: -25px;
+    
+}
+#image-2{
+    position: absolute;
+    width: 100%;
+    height: 190px;
+    background-image: url(images/pizza.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50% 200px ;
+    top: 80%;
+   
+    margin-top: -90px;
+    
+} 
+.col-md-8
+{
+    text-align: center;
+    align-items: center;
+    text-indent: 3px;
+}
+#footer{
+    margin-top: 50px;
+    background-color: #800000;
+    color: #ffffff;
+}
