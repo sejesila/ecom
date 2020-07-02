@@ -67,3 +67,9 @@ body
     background-color: #800000;
     color: #ffffff;
 }
+img.details
+{
+    width: auto;
+    margin: 15px auto;
+    height: 200px;
+}
